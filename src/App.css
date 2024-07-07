@@ -1,3 +1,5 @@
+/* global styles */
+
 :root {
   --primay-color: #6f55f2;
   --heading-color: #132742;
@@ -34,3 +36,4 @@ ul {
   color: var(--heading-color);
   font-weight: 700;
 }
+
