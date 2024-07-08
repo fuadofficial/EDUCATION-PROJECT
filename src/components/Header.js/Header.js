@@ -5,15 +5,15 @@ import logo from '../../assets/img/logo.png'
 function Header() {
     const nav_title = [
         { path: '/', display: 'Home' },
-        { path: '/', display: 'Services' },
-        { path: '/', display: 'Courses' },
-        { path: '/', display: 'About Us' }
+        { path: '/services', display: 'Services' },
+        { path: '/courses', display: 'Courses' },
+        { path: '/about', display: 'About Us' }
     ]
     return (
         <header className='header'>
             <div className="container">
                 <div className="nav_container">
-                    <div className="logo">
+                      <div className="logo">
                         <div className="logo-img">
                             <img src={logo} alt="Techflix AI logo" />
                         </div>

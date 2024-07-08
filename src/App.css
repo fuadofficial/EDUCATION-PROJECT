@@ -36,4 +36,15 @@ ul {
   color: var(--heading-color);
   font-weight: 700;
 }
-
+.register-btn {
+  background: var(--primay-color);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-family: var(--font-name);
+  font-size: 1rem;
+  font-weight: 700;
+  outline: none;
+  padding: 7px 15px;
+}
