@@ -1,0 +1,25 @@
+.start-wrapper {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 3rem;
+  align-items: center;
+}
+.start-img,
+.start-content {
+  width: 50%;
+}
+.start-img img {
+  width: 100%;
+  border-radius: 5%;
+}
+.start-content h2 {
+  font-size: 2.5rem;
+  margin: 2px;
+  margin-bottom: 20px;
+}
+.start-content p {
+  color: var(--heading-color);
+  font-size: 1.1rem;
+  line-height: 28px;
+  margin-bottom: 50px;
+}
