@@ -13,21 +13,21 @@ function Plans() {
                 'Customer Support',
                 "Personal Mentor",
                 'Standard options',
-                '5 classes per week'
-            ]
+                '5 classes per week',
+            ],
         },
         {
             title: 'Premium Member',
             price: "$100",
             duration: '/month',
-            color: "#67f55f2",
+            color: "#6f55f2",
             features: [
                 'Unlimited access to the courses',
                 'Customer Support',
                 "Personal Mentor",
                 'Standard options',
-                '5 classes per week'
-            ]
+                '5 classes per week',
+            ],
         },
         {
             title: 'Standard Member',
@@ -39,8 +39,8 @@ function Plans() {
                 'Customer Support',
                 "Personal Mentor",
                 'Standard options',
-                '5 classes per week'
-            ]
+                '5 classes per week',
+            ],
         },
     ]
     return (
@@ -49,7 +49,7 @@ function Plans() {
                 <h2 className='section_title'>
                     Premium Pricing Plan
                 </h2>
-                <p>Unlock elite tech services with our premium precing plan and soae ahead of the competition</p>
+                <p>Unlock elite tech services with our premium pricing plan and soar ahead of the competition</p>
             </div>
             <div className="pricing_wrapper">
                 {pricingData.map((pricingItem, index) => {
@@ -63,9 +63,9 @@ function Plans() {
                             </div>
                             <div className="services">
                                 <ul>
-                                    {pricingItem.features.map((feature, index) => {
+                                    {pricingItem.features.map((feature, index) => (
                                         <li key={index}>{feature}</li>
-                                    })}
+                                    ))}
                                 </ul>
                                 <button className='register-btn'>Join</button>
                             </div>
@@ -78,4 +78,4 @@ function Plans() {
     )
 }
 
-export default Plans
+export default Plans;

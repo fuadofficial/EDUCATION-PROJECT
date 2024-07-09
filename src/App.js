@@ -1,15 +1,11 @@
 import React from 'react'
 import './App.css'
-import Header from './components/Header.js/Header'
-import Footer from './components/Footer/Footer'
-import Home from './components/Pages/Home/Home'
+import LayoutRoutes from './LayoutRoutes/LayoutRoutes'
 
 function App() {
   return (
     <div>
-      <Header />
-      <Home/>
-      <Footer/>
+      <LayoutRoutes />
     </div>
   )
 }
